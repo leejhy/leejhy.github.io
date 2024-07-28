@@ -1,7 +1,7 @@
 ---
 title: "깃허브 블로그 만드는 방법 - 1"
-date: 2024-07-28 16:34:00 +09:00
-categories: [Blog, Guide]
+date: 2024-07-28 18:43:00 +09:00
+categories: [Blog]
 tags: ["github", "github blog"]
 author:
   name: junhyeong_lee
@@ -9,3 +9,4 @@ author:
 ---
 
 # 깃허브 블로그 만드는 방법
+asdtetst
