@@ -23,7 +23,7 @@ html {
     }
   }
 
-  font-size: 16px;
+  &{font-size: 16px;}
 }
 
 body {
@@ -224,7 +224,7 @@ i {
 
     @extend %no-bottom-border;
 
-    color: inherit;
+    &{color: inherit;}
   }
 }
 
@@ -688,8 +688,8 @@ $btn-mb: 0.5rem;
   }
 
   /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  &{-ms-overflow-style: none; /* IE and Edge */}
+  &{scrollbar-width: none; /* Firefox */}
 
   %sidebar-link-hover {
     &:hover {
@@ -806,8 +806,7 @@ $btn-mb: 0.5rem;
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
-    padding-right: 1rem;
+    padding : 0 1.5rem;//이거 수정해서 정렬
     margin-bottom: 1.5rem;
 
     $btn-size: 1.75rem;
@@ -1044,8 +1043,8 @@ search {
     @extend %no-bottom-border;
     @extend %heading;
 
-    font-size: 1.4rem;
-    line-height: 2.5rem;
+    &{font-size: 1.4rem;}
+    &{line-height: 2.5rem;}
   }
 
   > article {
@@ -1517,7 +1516,7 @@ search {
     }
 
     .sidebar-bottom {
-      padding-left: 2.75rem;
+      // padding-left: 2.75rem; /sidebar-bottom반응형 안되서 뺌
       margin-bottom: 1.75rem;
 
       a:not(:last-child) {
