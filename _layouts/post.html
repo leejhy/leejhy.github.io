@@ -152,20 +152,36 @@ tail_includes:
 
   <div class="giscus-frame" style="margin-top: 24px">
     <div class="giscus">
-      <script src="https://giscus.app/client.js"
-        data-repo="leejhy/leejhy.github.io"
-        data-repo-id="R_kgDOMbVc-Q"
-        data-category="General"
-        data-category-id="DIC_kwDOMbVc-c4ChMSk"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="0"
-        data-emit-metadata="0"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="ko"
-        crossorigin="anonymous"
-        async>
+      <script>
+        const element = document.querySelector('[data-mode]');
+        let mode;
+        if (element)
+          mode = element.getAttribute('data-mode');
+        script = document.createElement('script');
+        script.src = "https://giscus.app/client.js";
+        script.setAttribute('data-repo', "leejhy/leejhy.github.io");
+        script.setAttribute('data-repo-id', "R_kgDOMbVc-Q");
+        script.setAttribute('data-category', "General");
+        script.setAttribute('data-category-id', "DIC_kwDOMbVc-c4ChMSk");
+        script.setAttribute('data-mapping', "pathname");
+        script.setAttribute('data-strict', "0");
+        script.setAttribute('data-reactions-enabled', "0");
+        script.setAttribute('data-emit-metadata', "0");
+        script.setAttribute('data-input-position', "bottom");
+        script.setAttribute('data-theme', "preferred_color_scheme");
+        script.setAttribute('data-lang', "ko");
+        script.setAttribute('crossorigin', "anonymous");
+        script.async = true;
+        document.body.appendChild(script);
+        if (mode === 'dark') {
+          script.setAttribute('data-theme', "dark");
+          document.body.appendChild(script);
+        } else if (mode === 'light') {
+          script.setAttribute('data-theme', "light");
+          document.body.appendChild(script);
+        } else {
+          document.body.appendChild(script);
+        }
       </script>
     </div>
   </div>
