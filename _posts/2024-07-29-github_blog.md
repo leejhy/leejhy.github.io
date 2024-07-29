@@ -18,4 +18,4 @@ tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
 
 다음 글 부터 깃허브 블로그 제작 가이드를 작성해 보겠다.
 #### **목차**
-[깃허브 블로그 만들기 - 1](http://127.0.0.1:4000/posts/github_blog_1/)
+[깃허브 블로그 만들기 - 1](https://leejhy.github.io/posts/github_blog_1/)

@@ -65,7 +65,7 @@ $ cd ~/mygit
 $ bundle exec jekyll serve
 ```
 명령어를 실행 시킨 뒤 http://127.0.0.1:4000/ 에 접속해보면 된다. 나이스~
-실행할때 발생하는 경고메세지는 [뒤에서](http://127.0.0.1:4000/posts/github_blog_1/#%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85) 해결 하겠다
+실행할때 발생하는 경고메세지는 [뒤에서](https://leejhy.github.io/posts/github_blog_1/#%ED%8A%B8%EB%9F%AC%EB%B8%94-%EC%8A%88%ED%8C%85) 해결 하겠다
 ### 4. Github Pages 테스트
 마지막으로 내 깃 레포지토리에 push하면, 자동으로 github action이 실행돼서 호스팅이 된다.
 ```zsh
