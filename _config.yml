@@ -14,12 +14,13 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: 개발세발 # the main title
+title: "Leejhy" # the main title
 
 tagline: 개발 공부정리 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-   programming cs developer
+   leejhy computer science programming cs developer github blog 깃허브 깃허브블로그
+   
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -34,7 +35,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: junhyeong_lee
+  name: leejhy
   email: jeehyeong0128@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
