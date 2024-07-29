@@ -7,7 +7,7 @@ tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
 
 ### chirpy 테마, Mac, iterm2 사용 기준으로 작성하였다.
 
-깃허브 블로그는 github의 무료 호스팅을 이용하기 때문에 먼저 레포리토리를 만들어야 한다.[^1]
+깃허브 블로그는 github의 무료 호스팅을 이용하기 때문에 먼저 레포지토리를 만들어야 한다.[^1]
 ## **Github Pages 세팅**
 
 ### 1.Repository 생성
