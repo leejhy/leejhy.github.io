@@ -12,10 +12,10 @@ tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
 
 ### 1.Repository 생성
 github.com 메인화면 좌측에 있는 <kbd>New</kbd> 버튼을 누른 뒤 
-<img src = "assets/img/github/1_new_repo.png" style="width:60%;">
+<img src = "/assets/img/github/1_new_repo.png" style="width:60%;">
 
 아래처럼 입력해준다. 
-<img src = "assets/img/github/1_create_repo.png" style="width:80%">
+<img src = "/assets/img/github/1_create_repo.png" style="width:80%">
 - `Repository name` : (본인의 깃허브닉네임).github.io
 - `Public` : 선택
 - `Add a README file` : 선택
@@ -89,7 +89,7 @@ $ sass-migrator division /_sass/**/.scss
 ```
 해결완료
 #### **2. css warning**   
-<img src = "assets/img/github/1_bundle_error.png" style="width:80%;">
+<img src = "/assets/img/github/1_bundle_error.png" style="width:80%;">
 
 이 에러는 이 문법이 다음 버전에서 지원하지 않는다는 경고문이라고 한다. 사실 안해도 상관 없을 것 같다 터미널 에러 메세지의 경로 중 가장 위의 경로로 들어가서 표시된 줄을 &{ } 으로 감싸주면된다
 ```css
