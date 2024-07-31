@@ -1,13 +1,15 @@
 ---
-title: "깃허브 블로그 만들기 - 1"
+title: "깃허브 블로그 시작 가이드 - 1"
 date: 2024-07-29 14:21:00 +09:00
 categories: [Blog]
-tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
+tags: ["github", "github blog", "blog", "howto", "가이드", "깃허브 블로그"]
 ---
 
-### chirpy 테마, Mac, iterm2 사용 기준으로 작성하였다.
+# 깃허브 블로그 만들기
+> ### chirpy 테마, Mac, iterm2 사용 기준으로 작성하였다.
 
 깃허브 블로그는 github의 무료 호스팅을 이용하기 때문에 먼저 레포지토리를 만들어야 한다.[^1]
+
 ## **Github Pages 세팅**
 
 ### 1.Repository 생성
@@ -91,7 +93,9 @@ $ sass-migrator division /_sass/**/.scss
 #### **2. css warning**   
 <img src = "/assets/img/github/1_bundle_error.png" alt="css warning" style="width:80%;">
 
-이 에러는 이 문법이 다음 버전에서 지원하지 않는다는 경고문이라고 한다. 사실 안해도 상관 없을 것 같다 터미널 에러 메세지의 경로 중 가장 위의 경로로 들어가서 표시된 줄을 &{ } 으로 감싸주면된다
+이 에러는 이 문법이 다음 버전에서 지원하지 않는다는 경고문이라고 한다. 사실 처리 안해도 상관 없을 것 같은데 신경 쓰여서 해결해 주었다.    
+해결 방법은 터미널에 나오는 에러 메세지의 경로 중 가장 위의 경로로 들어가서 표시된 줄을 &{ } 으로 감싸주면 된다
+
 ```css
 margin-left: 20px; /* 이 부분을 */
 
@@ -101,8 +105,9 @@ margin-left: 20px; /* 이렇게 바꿔주면 된다 */
 ```
 
 --- 
-이제 기본 설치는 끝났으니, 다음에는 테마를 커스터마이즈 해보겠다.   
+이제 기본 설치는 끝났으니, 다음에는 블로그를 개인에 맞게 수정 해보겠다.   
 혹시나 따라하시다가 궁금한점이나 안되는 부분 있으시면 댓글 남겨주세요!   
+### [다음글](https://leejhy.github.io/posts/github_blog_2/)
 
 ---
 **참고 자료**

@@ -1,8 +1,8 @@
 ---
-title: "깃허브 블로그 만들기 - 0"
+title: "깃허브 블로그 시작"
 date: 2024-07-29 11:57:00 +09:00
 categories: [Blog]
-tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
+tags: ["github", "github blog", "blog", "깃허브 블로그"]
 ---
 
 ### 블로그를 시작 하는 이유
@@ -18,4 +18,5 @@ tags: ["github", "github blog", "blog", "howto", "깃허브 블로그"]
 
 다음 글 부터 깃허브 블로그 제작 가이드를 작성해 보겠다.
 #### **목차**
-[깃허브 블로그 만들기 - 1](https://leejhy.github.io/posts/github_blog_1/)
+[깃허브 블로그 시작 가이드 - 1](https://leejhy.github.io/posts/github_blog_1/)   
+[깃허브 블로그 시작 가이드 - 2](https://leejhy.github.io/posts/github_blog_2/)
