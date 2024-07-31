@@ -26,9 +26,11 @@ tags: ["github", "github blog", "blog", "howto", "가이드", "깃허브 블로�
 `social.email`: 본인 이메일 (아무거나)   
 `social.links`: 해당되는 링크 적어주면 된다   
 
-이것들만 변경해주면 된다 이제 하나씩 어디에 적용 되는건지 살펴 보겠다.
+이 부분들이다. 이제 하나씩 어디에 적용 되는건지 살펴 보겠다.
 
-제가 어떻게 설정 했는지 제 [깃허브](https://github.com/leejhy/leejhy.github.io){:target="_blank"}에 _config.yml 파일 참고하셔서 설정하시면 더 편하실 것 같습니다
+> 헷갈리시면 제 [깃허브](https://github.com/leejhy/leejhy.github.io){:target="_blank"} _config.yml 파일 참고해주세요
+{: .prompt-info }
+
 ### 참고사항
 다들 아시겠지만 social.name 처럼 중간에 점 `.` 찍어 놓은 부분은 저런 키가 있다는게 아니라, social의 하위 키 name을 의미합니다   
 ![](/assets/img/github/2_key.png){: width="300px"}*social.name*
@@ -42,7 +44,7 @@ tags: ["github", "github blog", "blog", "howto", "가이드", "깃허브 블로�
 저 동그란 프로필 사진은 아바타 사진을 변경하면 되는데,   
 
 ![](/assets/img/github/2_avatar.png){: width="300px"}*/assets/img/avatar.png*
-루트 디렉토리에서 /assets/img/avatar.png 위치에 있는 avatar.png를 원하는 사진으로 변경하면 된다
+루트 디렉토리에서 /assets/img/avatar.png 위치에 있는 `avatar.png`를 원하는 사진으로 변경하면 된다
 나는 옛날에 처음으로 도트로 찍어본 고양이를 넣어봤다 나의 첫 고양이
 
 ![](/assets/img/github/2_social_name.png){: width="300px"}*social.name*
@@ -54,4 +56,4 @@ social.name은 이렇게 글을 작성할때 작성자로 표시되고, 페이�
 이렇게 블로그 생성부터, 기본 세팅의 가이드는 끝났다!   
 다음 글 부터는 글작성 방법과 마크다운 기본 문법, 추가적으로 커스터마이즈 한 부분들등에 대해서 작성해 보겠다
 <br><br>
-언제나 궁금한점 있으시면 편하게 댓글 달아주세요~ 감사합니단
+언제나 궁금한점 있으시면 편하게 댓글 달아주세요~ 읽어주셔서 감사합니다
